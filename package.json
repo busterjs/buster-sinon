@@ -1,7 +1,7 @@
 {
     "name": "buster-sinon",
-    "version": "0.6.0",
-    "description": "Sinon spies, stubs and mocks for buster-test",
+    "version": "0.7.0",
+    "description": "Sinon.JS integration for the Buster.JS test runner",
     "homepage": "http://busterjs.org/sinon",
     "author": {
         "name": "Christian Johansen",
@@ -12,6 +12,20 @@
         "name": "August Lilleaas",
         "email": "august.lilleaas@gmail.com",
         "url": "http://augustl.com"
+    }, {
+        "name": "Luís Cardoso",
+        "email": "lfac.pt@gmail.com"
+    }, {
+        "name": "Malcolm Locke",
+        "email": "malc@wholemeal.co.nz"
+    }, {
+        "name": "Max Antoni",
+        "email": "mail@maxantoni.de",
+        "url": "http://maxantoni.de"
+    }, {
+        "name": "Stein Magnus Jodal",
+        "email": "stein.magnus@jodal.no",
+        "url": "http://jodal.no"
     }],
     "main": "./lib/buster-sinon",
     "repository": {
@@ -22,10 +36,12 @@
         "test": "./run-tests"
     },
     "dependencies": {
-        "buster-core": ">=0.6.2",
-        "buster-assertions": ">=0.10.2",
-        "buster-test": ">=0.6",
-        "buster-format": ">=0.5.4",
-        "sinon": ">=1.4"
+        "buster-test": "~0.7",
+        "formatio": "~0.6",
+        "sinon": "~1.4",
+        "stack-filter": "~0.1"
+    },
+    "devDependencies": {
+        "referee": "~0.11"
     }
 }
