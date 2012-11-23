@@ -50,12 +50,8 @@ var testCase = buster.testCase("buster-sinon", {
     }
 });
 
-// Run
-buster.testRunner.assertionCount = function () {
-    return 1;
-};
-
 var runner = buster.testRunner.create();
+referee.on("pass", runner.assertionPass.bind(runner));
 var reporter = buster.reporters.dots.create({
     color: true,
     bright: true
