@@ -35,13 +35,11 @@
     "scripts": {
         "test": "./run-tests"
     },
-    "dependencies": {
+    "devDependencies": {
+        "referee": "~0.11",
         "buster-test": "~0.7",
         "formatio": "~0.6",
         "sinon": "~1.4",
         "stack-filter": "~0.1"
-    },
-    "devDependencies": {
-        "referee": "~0.11"
     }
 }

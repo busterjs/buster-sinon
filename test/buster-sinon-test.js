@@ -1,5 +1,10 @@
-require("../lib/buster-sinon");
 var buster = require("buster-test");
+require("../lib/buster-sinon")(
+    require("sinon"),
+    buster,
+    require("stack-filter"),
+    require("formatio")
+);
 var referee = require("referee");
 var assert = referee.assert;
 var refute = referee.refute;
