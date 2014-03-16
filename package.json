@@ -33,7 +33,7 @@
         "url": "https://github.com/busterjs/buster-sinon.git"
     },
     "scripts": {
-        "test": "./run-tests"
+        "test": "node run-tests"
     },
     "devDependencies": {
         "referee": "~0.11",
