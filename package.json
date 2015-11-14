@@ -1,47 +1,53 @@
 {
-    "name": "buster-sinon",
-    "version": "0.7.1",
-    "description": "Sinon.JS integration for the Buster.JS test runner",
-    "homepage": "http://busterjs.org/sinon",
-    "author": {
-        "name": "Christian Johansen",
-        "email": "christian@cjohansen.no",
-        "url": "http://cjohansen.no"
+  "name": "buster-sinon",
+  "version": "0.7.2",
+  "description": "Sinon.JS integration for the Buster.JS test runner",
+  "homepage": "http://busterjs.org/sinon",
+  "author": {
+    "name": "Christian Johansen",
+    "email": "christian@cjohansen.no",
+    "url": "http://cjohansen.no"
+  },
+  "contributors": [
+    {
+      "name": "August Lilleaas",
+      "email": "august.lilleaas@gmail.com",
+      "url": "http://augustl.com"
     },
-    "contributors": [{
-        "name": "August Lilleaas",
-        "email": "august.lilleaas@gmail.com",
-        "url": "http://augustl.com"
-    }, {
-        "name": "Luís Cardoso",
-        "email": "lfac.pt@gmail.com"
-    }, {
-        "name": "Malcolm Locke",
-        "email": "malc@wholemeal.co.nz"
-    }, {
-        "name": "Max Antoni",
-        "email": "mail@maxantoni.de",
-        "url": "http://maxantoni.de"
-    }, {
-        "name": "Stein Magnus Jodal",
-        "email": "stein.magnus@jodal.no",
-        "url": "http://jodal.no"
-    }],
-    "license": "BSD-3-Clause",
-    "main": "./lib/buster-sinon",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/busterjs/buster-sinon.git"
+    {
+      "name": "Luís Cardoso",
+      "email": "lfac.pt@gmail.com"
     },
-    "scripts": {
-        "test": "node run-tests",
-        "test-debug": "node --debug-brk run-tests"
+    {
+      "name": "Malcolm Locke",
+      "email": "malc@wholemeal.co.nz"
     },
-    "devDependencies": {
-        "referee": "1.x",
-        "buster-test": "0.7.x",
-        "formatio": "1.x",
-        "sinon": "1.x",
-        "stack-filter": "1.x"
+    {
+      "name": "Max Antoni",
+      "email": "mail@maxantoni.de",
+      "url": "http://maxantoni.de"
+    },
+    {
+      "name": "Stein Magnus Jodal",
+      "email": "stein.magnus@jodal.no",
+      "url": "http://jodal.no"
     }
+  ],
+  "license": "BSD-3-Clause",
+  "main": "./lib/buster-sinon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/busterjs/buster-sinon.git"
+  },
+  "scripts": {
+    "test": "node run-tests",
+    "test-debug": "node --debug-brk run-tests"
+  },
+  "devDependencies": {
+    "referee": "1.x",
+    "buster-test": "0.7.x",
+    "formatio": "1.x",
+    "sinon": "1.x",
+    "stack-filter": "1.x"
+  }
 }
