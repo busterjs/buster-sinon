@@ -38,10 +38,10 @@
         "test-debug": "node --debug-brk run-tests"
     },
     "devDependencies": {
-        "referee": "~0.11",
-        "buster-test": "~0.7",
-        "formatio": "~0.6",
-        "sinon": "~1.9",
-        "stack-filter": "~0.1"
+        "referee": "1.x",
+        "buster-test": "0.7.x",
+        "formatio": "1.x",
+        "sinon": "1.x",
+        "stack-filter": "1.x"
     }
 }
